@@ -1,0 +1,82 @@
+.game-div{
+    background-color: rgb(6, 52, 100);
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+ion-header{
+    background: #051f40!important;
+    ion-toolbar{
+        --background: #051f40!important;
+        color: white
+    }
+}
+ion-content{
+    --background: #051f40!important;
+}
+.ion-color-tertiary {
+    --ion-color-base: #17a2b8!important;
+}
+ion-segment{
+    --background-checked: #063464;
+    // height: 30px;
+    margin-top: 30px;
+    ion-segment-button{
+    //  height: 27.6px;
+     max-width: 75px;
+    color: white;
+    font-size: 12.5px;
+    font-weight: 600;
+    min-height: 13px;
+    --color-checked: transparent;
+    --background: #051f40;
+    ion-label{
+        line-height: 30px;
+    }
+    }
+}
+.timeBettor{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    span{
+        color: #007bff!important;
+        font-weight: bold;
+        min-width: 33%;
+        text-align: center;
+    }
+}
+.table-div{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    span{
+        min-width: 33%;
+        text-align: center;
+    }
+    p{
+        min-width: 33%;
+        text-align: center;
+        margin: 0;
+        font-weight: bold;
+    }
+}
+// ion-segment{
+//     margin-top: 30px;
+//     ion-segment-button{
+//         max-width: 75px;
+//     ion-label{
+//         color: #dde0e3;
+//         // margin-bottom: 0px;
+//     }
+//     }
+// }

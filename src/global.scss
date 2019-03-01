@@ -9,9 +9,22 @@
 @import '~@ionic/angular/css/text-alignment.css';
 @import '~@ionic/angular/css/text-transformation.css';
 @import '~@ionic/angular/css/flex-utils.css';
-.range-bar {
-    background: red!important;
+ion-header{
+    background: #051f40!important;
+    ion-toolbar{
+        --background: #051f40!important;
+        color: white
+    }
 }
-:host(.ion-color) .range-bar {
-    background: red!important;
+ion-content{
+    --background: #051f40;
+}
+.list-md {
+    background: transparent;
+}
+ion-item{
+    --background: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
 }
