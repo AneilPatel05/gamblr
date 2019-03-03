@@ -8,16 +8,6 @@
 </ion-header>
 
 <ion-content>
-    <div padding class="top-div-css change-sagment">
-      <ion-segment (ionChange)="segmentChanged($event)">
-        <ion-segment-button value="friends" checked text-capitalize>
-          <ion-label no-margin>Manual Bet</ion-label>
-        </ion-segment-button>
-        <ion-segment-button value="enemies" text-capitalize>
-          <ion-label no-margin>Auto Bet</ion-label>
-        </ion-segment-button>
-      </ion-segment>
-    </div>
     <div class="bet-div" padding>
       <div class="bet-amount-how-to-play-div">
         <span class="bet-amount-span"> Bet amount </span>
@@ -67,15 +57,7 @@
           <p class="right">100</p>
       </div>
   
-      <ion-button color="primary">Get Started</ion-button>
-      <ion-segment (ionChange)="segmentChanged($event)">
-        <ion-segment-button checked value="friends" class="withIndicator">
-          <ion-label>All Bets</ion-label>
-        </ion-segment-button>
-        <ion-segment-button value="enemies" class="withIndicator">
-          <ion-label>My Bets</ion-label>
-        </ion-segment-button>
-      </ion-segment>
+      <ion-button color="primary">Roll Dice</ion-button>
       <div padding>
         <div class="below-input-div" style="margin-top:30px">
           <span class="width-33">Game</span>
