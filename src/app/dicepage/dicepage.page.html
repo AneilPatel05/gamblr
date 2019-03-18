@@ -46,7 +46,7 @@
         </div>
         <div class="div-win-change border-right-grey">
           <p class="small-text-div">Pay out</p>
-          <p class="white paragraph-margin">{{diceForm.value.amount * (1 + ((diceForm.value.roll - 1) / 100))}}</p>
+          <p class="white paragraph-margin">{{diceForm.value.amount * (1 + ((100 - diceForm.value.roll - 1) / 100))}}</p>
         </div>
         <div class="div-win-change">
           <p class="small-text-div">Win chance</p>

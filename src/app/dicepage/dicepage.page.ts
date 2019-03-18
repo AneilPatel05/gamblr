@@ -39,7 +39,7 @@ export class DicepagePage implements OnInit {
       console.log('type', this.diceForm.value.type)
       console.log('roll', this.diceForm.value.roll)
       console.log('Pay out', this.diceForm.value.amount * (1 + ((this.diceForm.value.roll - 1) / 100)))
-      console.log('Win chance', this.diceForm.value.roll - 1)
+      console.log('Win chance', 100 - this.diceForm.value.roll - 1)
     } else {
       const alert = await this.alertController.create({
         header: 'Error',
